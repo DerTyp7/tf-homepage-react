@@ -1,7 +1,14 @@
+$breakpoint-1: 850px;
 .header {
 	display: flex;
 	padding: 10px 30px;
+
+	@media (max-width: $breakpoint-1) {
+		justify-content: center;
+	}
+
 	h1 {
 		color: white;
+		text-align: center;
 	}
 }
