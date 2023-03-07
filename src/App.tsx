@@ -50,6 +50,25 @@ export default function App() {
 							Excalidraw
 						</a>
 					</div>
+					<div className="linkContainer disabled">
+						<a href="#" style={{ backgroundColor: "#318766" }}>
+							<div className="svgContainer">
+								<svg viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0 0h192v192H0z" style={{ fill: "none" }} />
+									<path
+										d="M27.55 22v45.33h45.33v23.12h-22.2V170h22.2v-34.23h46.24V170h22.21V90.45h-22.21V67.33h45.33V22h-45.33v45.33H72.88V22H27.55z"
+										style={{
+											stroke: "#fff",
+											strokeLinejoin: "round",
+											strokeWidth: "12px",
+											fill: "none",
+										}}
+									/>
+								</svg>
+							</div>
+							Minecraft (tealfire.de)
+						</a>
+					</div>
 					<div className="linkContainer">
 						<a
 							href="ts3server://tealfire.de"

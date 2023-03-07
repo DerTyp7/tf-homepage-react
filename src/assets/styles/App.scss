@@ -41,6 +41,9 @@ $breakpoint-3: 350px;
 					width: 100%;
 				}
 
+				&.disabled {
+					pointer-events: none;
+				}
 				a {
 					text-align: center;
 					aspect-ratio: 14/9;
